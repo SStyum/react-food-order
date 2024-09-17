@@ -27,10 +27,7 @@ const Meals = () => {
                 return ( 
                     <MealItem
                         key={meal.id}
-                        name={meal.name}
-                        price={meal.price}
-                        description={meal.description}
-                        image={meal.image}
+                        meal={meal}
                     >
                         {meal.name}
                     </MealItem>
